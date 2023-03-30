@@ -1,6 +1,18 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: $background-color;
+}
+
+.app {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 15px;
+}
+
+@media (max-width: 740px) {
+  .app {
+    padding: 0;
+  }
 }
 
 .gradient-text {
