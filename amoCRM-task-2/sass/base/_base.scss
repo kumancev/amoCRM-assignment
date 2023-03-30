@@ -1,0 +1,18 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: $background-color;
+}
+
+.gradient-text {
+  margin-bottom: 30px;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+
+  background: $gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
