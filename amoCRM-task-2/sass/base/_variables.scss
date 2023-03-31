@@ -1,19 +1,28 @@
 //colors
 
-$blue: #4077F3;
-$gradient: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+$blue: #4077f3;
+$gradient: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+$gradient-red: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%), #e4e5ea;
 
 //text
 
-$light-text: #E4E5EA;
+$light-text: #e4e5ea;
 $grey-text: #656566;
 
-//Background
+//background
 
 $background-color: #0e1014;
-
-//Images
-
-$imageP: "";
-$imageS: "";
-$imageR: "";
+$purple-ball: radial-gradient(
+  64% 64% at 27.25% 26.5%,
+  rgba(236, 208, 255, 0.64) 0%,
+  rgba(161, 93, 207, 0.24) 59.67%,
+  rgba(118, 49, 164, 0.208) 78.59%,
+  rgba(86, 24, 128, 0.232) 100%
+);
+$red-ball: radial-gradient(
+  64% 64% at 27.25% 26.5%,
+  rgba(255, 208, 208, 0.536) 0%,
+  rgba(212, 93, 93, 0.264) 59.67%,
+  rgba(167, 49, 49, 0.248) 78.59%,
+  rgba(130, 25, 25, 0.248) 100%
+);

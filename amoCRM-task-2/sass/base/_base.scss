@@ -7,24 +7,9 @@ body {
   margin: 0 auto;
   max-width: 1170px;
   padding: 0 15px;
-}
+  color: $light-text;
 
-@media (max-width: 740px) {
-  .app {
+  @media (max-width: 740px) {
     padding: 0;
   }
-}
-
-.gradient-text {
-  margin-bottom: 30px;
-
-  font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 58px;
-
-  background: $gradient;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }

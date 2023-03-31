@@ -1,0 +1,135 @@
+.benefits {
+  display: flex;
+  flex-direction: column;
+  max-width: 330px;
+  align-items: flex-end;
+  margin-bottom: 124px;
+}
+
+.benefits-title {
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+}
+
+.benefits-item {
+  text-align: right;
+}
+
+.benefits-gradient-text {
+  background: $gradient-red;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 30px;
+
+  margin-bottom: 30px;
+}
+
+.benefit-title {
+  margin-bottom: 6px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: 0.05em;
+}
+
+.benefit-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.benefits-button {
+  width: 262px;
+  height: 61px;
+  background: $blue;
+  border: 0;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: $light-text;
+  cursor: pointer;
+
+  transition: background 0.1s linear;
+}
+
+.benefits-grid-mobile {
+  display: none;
+}
+
+.benefits-button:hover {
+  background: #2763f0;
+}
+
+@media (max-width: 740px) {
+  .benefits {
+    align-items: flex-start;
+    max-width: 361px;
+    margin-bottom: 59px;
+  }
+
+  .benefits-title {
+    text-align: left;
+  }
+
+  .benefits-item {
+    text-align: left;
+  }
+
+  .benefits-button {
+    justify-self: start;
+  }
+}
+
+@media (max-width: 450px) {
+  .benefits {
+    max-width: 271px;
+  }
+
+  .benefits-grid-mobile {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    row-gap: 14px;
+  }
+
+  .benefit-mobile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .benefit-line {
+    width: 10px;
+    height: 1px;
+    background: $gradient-red;
+  }
+
+  .benefits-button-disp-none {
+    display: none;
+  }
+
+  .benefits-grid-disp-none {
+    display: none;
+  }
+}

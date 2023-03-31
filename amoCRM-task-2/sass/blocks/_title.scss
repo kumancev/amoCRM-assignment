@@ -1,0 +1,43 @@
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.gradient-text {
+  margin-bottom: 30px;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+
+  background: $gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  line-height: 22px;
+}
+
+@media (max-width: 450px) {
+  .title {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .gradient-text {
+    font-size: 36px;
+    line-height: 44px;
+
+    margin-bottom: 15px;
+  }
+}

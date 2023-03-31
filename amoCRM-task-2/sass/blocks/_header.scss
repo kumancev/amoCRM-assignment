@@ -47,6 +47,10 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+
+  @media (max-width: 1180px) {
+    display: none;
+  }
 }
 
 .link {
@@ -60,6 +64,7 @@
 }
 
 .text {
+  font-family: "Montserrat";
   color: $light-text;
   font-style: normal;
   font-weight: 300;
@@ -72,16 +77,8 @@
   gap: 34px;
   justify-self: flex-end;
   padding-top: 4px;
-}
 
-@media (max-width: 1180px) {
-  .phone-number {
-    display: none;
-  }
-}
-
-@media (max-width: 900px) {
-  .social-icons-wrapper {
+  @media (max-width: 900px) {
     display: none;
   }
 }

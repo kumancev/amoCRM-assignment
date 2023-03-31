@@ -1,0 +1,16 @@
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  @media (max-width: 740px) {
+    padding-top: 115px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+
+    background: url("../../assets/bg.png") no-repeat center;
+    background-size: cover;
+  }
+}
